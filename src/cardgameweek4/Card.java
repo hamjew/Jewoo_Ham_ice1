@@ -8,6 +8,8 @@ public class Card {
     	
 	// 01-29-2020
 	
+        // Assignment1
+    
         public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS};
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
         private final Suit suit;
