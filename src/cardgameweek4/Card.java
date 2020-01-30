@@ -12,6 +12,7 @@ public class Card {
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
         private final Suit suit;
         private final Value value;
+        private String Joker;
         
         public Card(Suit s, Value gVal)
         {
@@ -22,8 +23,21 @@ public class Card {
 		return this.value;
 	}
 
-	
+        
 	public Suit getSuit() {
 		return this.suit;
         }
+        
+        public String getJoker(){
+            
+            return this.Joker;
+            
+        }
+        
+        public void setJoker(String joker){
+            
+            this.Joker = Joker;
+            
+        }
+        
 }
